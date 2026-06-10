@@ -9,13 +9,13 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(
     scanBasePackages = {
-      "com.momentus", // your main app
+      "com.orvion", // your main app
       "com.momentus.corefw",
       "com.momentus.foundation" // package inside your JAR
     })
 @EntityScan(
     basePackages = {
-      "com.momentus.projectmgmt",
+      "com.orvion.projectmgmt",
       "com.momentus.foundation",
       "com.momentus.corefw"
     })
